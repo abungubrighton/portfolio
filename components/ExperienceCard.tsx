@@ -49,11 +49,11 @@ function ExperienceCard({}: Props) {
                   on programming skills
               </p>
               <ul className="list-disc space-y-4 ml-5  text-lg">
-                <li>Summary Points Summary Points Summary Points Summary Points</li>
-                <li>Summary Points Summary Points Summary Points Summary Points</li>
-                <li>Summary Points Summary Points Summary Points Summary Points</li>
-                <li>Summary Points Summary Points Summary Points Summary Points</li>
-                <li>Summary Points Summary Points Summary Points Summary Points</li>
+                <li>Summary Points Summary Points Summary </li>
+                <li>Summary Points Summary Points Summary</li>
+                <li>Summary Points Summary Points Summary </li>
+                <li>Summary Points Summary Points Summary</li>
+                <li>Summary Points Summary Points Summary </li>
               </ul>
           </div>
       </article>
