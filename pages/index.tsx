@@ -1,5 +1,3 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Head from "next/head";
@@ -10,7 +8,7 @@ import Projects from "@/components/Projects";
 import Contactme from "@/components/Contactme";
 import Link from "next/link";
 
-const inter = Inter({ subsets: ["latin"] });
+
 
 export default function Home() {
   return (
@@ -29,7 +27,7 @@ export default function Home() {
         <About />
       </section>
       {/* Experience */}
-      <section id="experienc" className="snap-center">
+      <section id="experience" className="snap-center">
         <WorkExperience />
       </section>
       {/* Skills */}
