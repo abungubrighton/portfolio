@@ -3,10 +3,10 @@ type Props = {};
 
 const About = (props: Props) => {
   return (
-      <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{duration:1.5}}
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1.5 }}
       className="flex flex-col items-center relative h-screen text-center
            md:text-left md:flex-row max-w-7xl px-10 justify-evenly
            mx-auto space-y-40
@@ -41,13 +41,30 @@ const About = (props: Props) => {
           background
         </h4>
         <p className="text-base">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur,
-          culpa deserunt eum minus, autem eligendi voluptatum fugit, tempora
-          illo ullam vel asperiores nihil consequatur exercitationem blanditiis
-          neque temporibus! Quia reiciendis voluptates, molestias provident
-          eligendi magnam obcaecati quasi eius, saepe ut, deserunt at? Voluptate
-          sapiente at, obcaecati quidem velit quia ipsa hic labore deserunt,
-          placeat nesciunt mollitia nobis esse minima porro!
+          Hey there, I’m Abungu Brighton Otieno, a Certified Full Stack Mobile &
+          Web Developer and budding Machine Learning Engineer. You can usually
+          find me diving deep into code or exploring the intricacies of AI, all
+          while sipping on a good cup of coffee.
+        </p>
+        <p className="text-base">
+          I’m all about the fusion of creativity and functionality, crafting
+          seamless applications using an arsenal of technologies such as Django,
+          ReactJS,NextJS,Typescript, Postgresql,Kubernetes,GCP and AWS. My knack
+          for both cloud, Front-End and Back-End development allows me to weave
+          together data-driven, visually captivating web and mobile applications
+          that stand out.
+        </p>
+        <p className="text-base">
+          Currently, I’m on an exciting journey honing my AI skills through an
+          ongoing AWS-Udacity Machine Learning scholarship, leveraging concepts
+          from distributed computing, real-time data processing, and more to
+          solve complex dataset puzzles.
+        </p>
+        <p className="text-base">
+          Apart from my coding escapades, I wear my volunteer hat as the Lead
+          Skills Trainer at RCED AFRICA, where I’ve been empowering teachers and
+          students in Kisumu and Nairobi counties with computational skills and
+          nurturing the next generation of tech enthusiasts.
         </p>
       </div>
     </motion.div>

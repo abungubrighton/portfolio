@@ -29,7 +29,7 @@ export default function Home() {
         <About />
       </section>
       {/* Experience */}
-      <section id="experienc" className="snap-center">
+      <section id="experience" className="snap-center">
         <WorkExperience />
       </section>
       {/* Skills */}
