@@ -25,10 +25,10 @@ function Header({}: Props) {
                 }}
             >
             {/* Social Icons */}
-            <SocialIcon url="https://github.com/abungubrighton" fgColor="grey" bgColor="transparent"/>
-            <SocialIcon url="https://github.com/abungubrighton" fgColor="grey" bgColor="transparent"/>
-            <SocialIcon url="https://github.com/abungubrighton" fgColor="grey" bgColor="transparent"/>
-            <SocialIcon url="https://github.com/abungubrighton" fgColor="grey" bgColor="transparent"/>
+            <SocialIcon target="_blank" url="https://github.com/abungubrighton" fgColor="grey" bgColor="transparent"/>
+            <SocialIcon target="_blank" url="https://www.linkedin.com/in/abungu-b-697755161/" fgColor="grey" bgColor="transparent"/>
+            <SocialIcon target="_blank" url="https://www.facebook.com/brighton.majiwa" fgColor="grey" bgColor="transparent"/>
+        
             
             </motion.div>
             {/* Contact Me Link */}

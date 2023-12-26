@@ -1,13 +1,4 @@
 export const projects = [{
-    projectName: "Netflix Clone",
-    projectSummary: `
-    A Hulu-inspired streaming platform,
-    leveraging technologies such as Netflix and TMDB APIs to enhance content curation and user experience.
-    Key highlights of the project include:API Integration Expertise,Dynamic Content Aggregation,User-Centric Design and Cross-Platform Compatibility
-    `,
-    projectLink: 'https://github.com/abungubrighton/netflix-react-clone',
-    projectImageUrl: "/projects/netflix-clone.png"
-}, {
     projectName: "Hulu Clone",
     projectSummary: `
     A Netflix-inspired streaming platform,
@@ -16,6 +7,26 @@ export const projects = [{
     `,
     projectLink: 'https://hulu-nextjs-clone-bwi62ssqq-brightonotienos-projects.vercel.app',
     projectImageUrl: "/projects/hulu-clone.png"
+}, {
+    projectName: "Ecommerce Platform",
+    projectSummary: `
+    A feature-rich e-commerce platform encompassing:
+    Robust Shopping Experience: Full-featured cart, product reviews, top products carousel, pagination, and efficient search.
+    User-Focused Profiles: User profiles with order history for personalized experiences.
+    Efficient Admin Tools: Streamlined admin controls for product, user, and order management.
+    Smooth Checkout Process: Integrated PayPal/credit card payments and streamlined checkout with shipping options.
+    `,
+    projectLink: 'https://github.com/abungubrighton/shopout',
+    projectImageUrl: "/projects/shopout.png"
+}, {
+    projectName: "Netflix Clone",
+    projectSummary: `
+    A Hulu-inspired streaming platform,
+    leveraging technologies such as Netflix and TMDB APIs to enhance content curation and user experience.
+    Key highlights of the project include:API Integration Expertise,Dynamic Content Aggregation,User-Centric Design and Cross-Platform Compatibility
+    `,
+    projectLink: 'https://github.com/abungubrighton/netflix-react-clone',
+    projectImageUrl: "/projects/netflix-clone.png"
 }, {
     projectName: "Tesla Clone",
     projectSummary: `
