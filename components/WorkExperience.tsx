@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import ExperienceCard from "./ExperienceCard";
-
+import {experiences} from '../data'
 type Props = {}
 
 function WorkExperience({}: Props) {
@@ -25,11 +25,11 @@ function WorkExperience({}: Props) {
       overflow-x-scroll overflow-y-hidden p-10 snap-x snap-mandatory 
       scrollbar scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80
       ">
-        <ExperienceCard />
-        <ExperienceCard />
-        <ExperienceCard />
-        <ExperienceCard />
-        <ExperienceCard />
+        {experiences.map(experience => (
+          <ExperienceCard key={experience.companyName} experience={experience} />
+        
+        ))}
+        
       </div>
     </motion.div>
   )

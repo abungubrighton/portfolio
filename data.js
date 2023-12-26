@@ -10,8 +10,8 @@ export const projects = [{
 }, {
     projectName: "Hulu Clone",
     projectSummary: `
-    A Hulu-inspired streaming platform,
-    leveraging technologies such as Netflix and TMDB APIs to enhance content curation and user experience.
+    A Netflix-inspired streaming platform,
+    leveraging technologies such as ReactJs , TMDB APIs and Firebase to enhance content curation and user experience.
     Key highlights of the project include:API Integration Expertise,Dynamic Content Aggregation,User-Centric Design and Cross-Platform Compatibility
     `,
     projectLink: 'https://hulu-nextjs-clone-bwi62ssqq-brightonotienos-projects.vercel.app',
@@ -27,4 +27,46 @@ export const projects = [{
     `,
     projectLink: 'https://github.com/abungubrighton/tesla-site-clone-react',
     projectImageUrl: "/projects/tesla-clone.png"
+}, ]
+
+
+export const experiences = [{
+    companyLogoUrl: '/logos/acw.png',
+    companyName: 'Africa Code Week',
+    position: "Lead Skills Trainer",
+    mainResponsibility: `
+    Trained Teachers and Student from both Nairobi and Kisumu Counties
+    under the Young Science Society of Kenya program
+    `,
+    responsibilities: [
+        'programming skills: HTML,javascript, css and scratch programming,',
+        'pitching and entrepreneurial skills'
+    ],
+    technologies: [
+        '/tech/scratch.png',
+        '/tech/html.png',
+        '/tech/js.png',
+        '/tech/css.png',
+    ],
+
+}, {
+    companyLogoUrl: '/logos/ibuqa.jpeg',
+    companyName: 'IbuQa Capital',
+    position: "Software Engineer",
+    mainResponsibility: `
+        Full stack software development
+    `,
+    responsibilities: [
+        `Development and Implementation: Building and implementing scalable, high-quality software solutions across the entire technology stack.`,
+        `Database Management: Creating and managing databases, ensuring data integrity, and optimizing database performance`,
+        `User Interface/User Experience (UI/UX) Design`
+    ],
+    technologies: [
+        '/tech/django.png',
+        '/tech/react.png',
+        '/tech/postgres.png',
+        '/tech/docker.jpeg',
+        '/tech/kubernetes.png',
+    ],
+
 }, ]
