@@ -21,6 +21,7 @@ function Projects({}: Props) {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p44 h-screen "
+            key={project.projectName}
           >
             <img
               src={project.projectImageUrl}
