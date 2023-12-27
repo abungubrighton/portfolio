@@ -5,8 +5,8 @@ type Props = {};
 
 function Projects({}: Props) {
   return (
-    <div className="sm:relative h-full sm:h-screen flex flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0 space-y-10 w-full">
-      <h3 className="sm:absolute top-24 uppercase tracking-[20px]  text-gray-500  text-2xl ">
+    <div className="relative h-full sm:h-screen flex flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0 space-y-10 w-full">
+      <h3 className="absolute top-20 sm:top-24 uppercase tracking-[20px]  text-gray-500  text-2xl ">
         Projects
       </h3>
       <div className="sm:relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80">
@@ -20,7 +20,7 @@ function Projects({}: Props) {
             transition={{ duration: 1.2 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="w-screen flex-shrink-0 snap-center flex flex-col sm:space-y-5 items-center justify-center space-y-5 p-5 sm:p-20  h-screen "
+            className="w-screen flex-shrink-0 snap-center flex flex-col sm:space-y-5 items-center justify-center  p-5 sm:p-20  h-screen "
             key={project.projectName}
           >
             <img
