@@ -7,12 +7,12 @@ const About = (props: Props) => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="flex flex-col items-center  md:relative h-screen text-center
+      className="flex flex-col items-center  sm:relative h-screen text-center
            md:text-left md:flex-row max-w-7xl px-10 justify-evenly
            mx-auto space-y-10 md:space-y-40
            "
     >
-      <h3 className=" md:absolute top-20 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h3 className=" sm:absolute sm:top-20 uppercase tracking-[20px] text-gray-500 text-2xl">
         About
       </h3>
       <motion.img
@@ -30,7 +30,7 @@ const About = (props: Props) => {
         viewport={{ once: true }}
         src="/images/brighton-2.jpg"
         alt="brighton image"
-        className="mb-30 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover
+        className=" hidden sm:mb-30 md:mb-0 sm:flex-shrink-0 sm:w-56 sm:h-56 sm:rounded-full sm:object-cover
               md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]
               "
       />
@@ -60,7 +60,7 @@ const About = (props: Props) => {
           from distributed computing, real-time data processing, and more to
           solve complex dataset puzzles.
         </p>
-        <p className="text-base">
+        <p className="md:text-base text-left">
           Apart from my coding escapades, I wear my volunteer hat as the Lead
           Skills Trainer at RCED AFRICA, where I’ve been empowering teachers and
           students in Kisumu and Nairobi counties with computational skills and
