@@ -7,12 +7,12 @@ const About = (props: Props) => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="flex flex-col items-center relative h-screen text-center
+      className="flex flex-col items-center  md:relative h-screen text-center
            md:text-left md:flex-row max-w-7xl px-10 justify-evenly
-           mx-auto space-y-40
+           mx-auto space-y-10 md:space-y-40
            "
     >
-      <h3 className="absolute top-20 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h3 className=" md:absolute top-20 uppercase tracking-[20px] text-gray-500 text-2xl">
         About
       </h3>
       <motion.img
@@ -40,13 +40,13 @@ const About = (props: Props) => {
           <span className="underline decoration-[#F7AB0A]/50">little</span>{" "}
           background
         </h4>
-        <p className="text-base">
+        <p className="md:text-base text-left">
           Hey there, I’m Abungu Brighton Otieno, a Certified Full Stack Mobile &
           Web Developer and budding Machine Learning Engineer. You can usually
           find me diving deep into code or exploring the intricacies of AI, all
           while sipping on a good cup of coffee.
         </p>
-        <p className="text-base">
+        <p className="md:text-base text-left">
           I’m all about the fusion of creativity and functionality, crafting
           seamless applications using an arsenal of technologies such as Django,
           ReactJS,NextJS,Typescript, Postgresql,Kubernetes,GCP and AWS. My knack
@@ -54,7 +54,7 @@ const About = (props: Props) => {
           together data-driven, visually captivating web and mobile applications
           that stand out.
         </p>
-        <p className="text-base">
+        <p className="md:text-base text-left">
           Currently, I’m on an exciting journey honing my AI skills through an
           ongoing AWS-Udacity Machine Learning scholarship, leveraging concepts
           from distributed computing, real-time data processing, and more to
