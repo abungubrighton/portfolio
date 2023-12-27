@@ -23,7 +23,7 @@ export default function Home() {
         <Hero />
       </section>
       {/* About */}
-      <section id="about" className="md:snap-center snap-start my-20">
+      <section id="about" className="snap-start my-20">
         <About />
       </section>
       {/* Experience */}

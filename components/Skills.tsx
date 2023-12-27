@@ -9,13 +9,13 @@ function Skills({}: Props) {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{duration:1.5}}
-      className="relative flex flex-col
+      className="sm:relative flex flex-col
       text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen
       justify-center xl:space-y-0 mx-auto items-center
       ">
-      <h3 className="absolute top-24 uppercase tracking-[20px]  text-gray-500  text-2xl">Skills</h3>
-      <h3 className="absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm">Hover over a skill for current proficiency</h3>
-      <div className="grid grid-cols-4 gap-1 md:grid-cols-6 md:gap-5 sm:grid-cols-4 sm:gap-2 ">
+      <h3 className="sm:absolute sm:top-24 uppercase tracking-[20px]  text-gray-500  text-2xl">Skills</h3>
+      <h3 className="sm:absolute sm:top-36 uppercase tracking-[3px] text-gray-500 text-sm">Hover over a skill for current proficiency</h3>
+      <div className="grid grid-cols-2 gap-1 md:grid-cols-6 md:gap-5 sm:grid-cols-4 sm:gap-2 ">
         <Skill directionLeft={true} skillName="Django" skillUrl="/tech/django-2.png" skillPercentage={95} />
         <Skill directionLeft={true} skillName="ReactJS" skillUrl="/tech/react.png" skillPercentage={90} />
         <Skill directionLeft={true} skillName="NextJS" skillUrl="/tech/next.png" skillPercentage={88} />
