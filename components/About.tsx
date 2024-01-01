@@ -30,7 +30,7 @@ const About = (props: Props) => {
         viewport={{ once: true }}
         src="/images/brighton-2.jpg"
         alt="brighton image"
-        className=" hidden sm:mb-30 md:mb-0 sm:flex-shrink-0 sm:w-56 sm:h-56 sm:rounded-full sm:object-cover
+        className=" hidden sm:block sm:mb-30 md:mb-0 sm:flex-shrink-0 sm:w-56 sm:h-56 sm:rounded-full sm:object-cover
               md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]
               "
       />

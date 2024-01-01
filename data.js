@@ -1,7 +1,7 @@
 export const projects = [{
     projectName: "Hulu Clone",
     projectSummary: `
-    A Netflix-inspired streaming platform,
+    A Hulu-inspired streaming platform,
     leveraging technologies such as ReactJs , TMDB APIs and Firebase to enhance content curation and user experience.
     Key highlights of the project include:API Integration Expertise,Dynamic Content Aggregation,User-Centric Design and Cross-Platform Compatibility
     `,
@@ -21,7 +21,7 @@ export const projects = [{
 }, {
     projectName: "Netflix Clone",
     projectSummary: `
-    A Hulu-inspired streaming platform,
+    A Netflix-inspired streaming platform,
     leveraging technologies such as Netflix and TMDB APIs to enhance content curation and user experience.
     Key highlights of the project include:API Integration Expertise,Dynamic Content Aggregation,User-Centric Design and Cross-Platform Compatibility
     `,
