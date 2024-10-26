@@ -21,11 +21,12 @@ export const projects = [{
 }, {
     projectName: "Netflix Clone",
     projectSummary: `
-    A Netflix-inspired streaming platform,
-    leveraging technologies such as Netflix and TMDB APIs to enhance content curation and user experience.
-    Key highlights of the project include:API Integration Expertise,Dynamic Content Aggregation,User-Centric Design and Cross-Platform Compatibility
+    A Netflix-inspired streaming platform built with React and Redux pulls content from the TMDB API,
+    uses Firebase for secure authentication, and integrates Stripe for managing payments and subscriptions.
+     React provides a responsive, dynamic user interface, while Redux manages global state, keeping user sessions, content data,
+      and subscription info in sync across the platform. With this setup, users enjoy a seamless, personalized streaming experience across devices.
     `,
-    projectLink: 'https://github.com/abungubrighton/netflix-react-clone',
+    projectLink: 'https://brighton-netflix-app-clone.vercel.app/',
     projectImageUrl: "/projects/netflix-clone.png"
 }, {
     projectName: "Tesla Clone",
