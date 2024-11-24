@@ -27,10 +27,6 @@ export default function Home() {
       <section id="about" className="my-20">
         <About />
       </section>
-      {/* Highlights */}
-      <section id="highlights" className="my-20">
-        <Highlights />
-      </section>
       {/* Experience */}
       <section id="experience" className="my-30">
         <WorkExperience />
@@ -38,6 +34,10 @@ export default function Home() {
       {/* Skills */}
       <section id="skills" className="my-20">
         <Skills />
+      </section>
+      {/* Highlights */}
+      <section id="highlights" className="my-20">
+        <Highlights />
       </section>
       {/* Projects */}
       <section id="projects" className="my-20">
