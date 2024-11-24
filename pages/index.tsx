@@ -6,6 +6,7 @@ import WorkExperience from "@/components/WorkExperience";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Contactme from "@/components/Contactme";
+import Highlights from "@/components/Highlights";
 import Link from "next/link";
 
 
@@ -19,27 +20,31 @@ export default function Home() {
       {/* Header */}
       <Header />
       {/* Hero */}
-      <section id="hero" className="snap-center mb-20">
+      <section id="hero" className="mb-20">
         <Hero />
       </section>
       {/* About */}
-      <section id="about" className="snap-start my-20">
+      <section id="about" className="my-20">
         <About />
       </section>
+      {/* Highlights */}
+      <section id="highlights" className="my-20">
+        <Highlights />
+      </section>
       {/* Experience */}
-      <section id="experience" className="snap-center my-30">
+      <section id="experience" className="my-30">
         <WorkExperience />
       </section>
       {/* Skills */}
-      <section id="skills" className="snap-start my-20">
+      <section id="skills" className="my-20">
         <Skills />
       </section>
       {/* Projects */}
-      <section id="projects" className="snap-start my-20">
+      <section id="projects" className="my-20">
         <Projects />
       </section>
       {/* Contact Me */}
-      <section id="contact" className="snap-start mt-20">
+      <section id="contact" className="mt-20">
         <Contactme />
       </section>
 
